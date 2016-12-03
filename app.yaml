@@ -1,0 +1,17 @@
+application: menu
+version: one
+runtime: php
+api_version: 1
+handlers:
+- url: /.*
+    script: index.php
+- url: /.*
+    script: acceso_mysql.php
+- url: /.*
+    script: codeigniter.php
+- url: /.*
+    script: html_css.php
+- url: /.*
+    script: menu.php
+- url: /.*
+    script: php.php
